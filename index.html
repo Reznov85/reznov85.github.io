@@ -1,95 +1,82 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>TP Dragon Ball</title>
+    <title>Haribo</title>
+    <link rel="icon" href="./images/favicon.ico"/>
+    <!-- Reboot.css est un reset amélioré (avec des valeurs par défaut standardisées) https://getbootstrap.com/docs/4.1/content/reboot/ -->
+    <link rel="stylesheet" href="./css/reboot.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
-        <img src="images/ball.png" alt="boule de cristal">
-        <h1>Dragon ball Cards</h1>
+        <section id="black">
+            <h1> J <span id="heart">♥</span> les <img src="../images/haribo-logo.png" alt="logo Haribo">!</h1>
+        </section>
+        <nav>
+            <ul id="menu">
+                <li><a href="">About</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <ul id="reseau">
+              <li a href=""><img src="../images/twitter_icon.png" alt="logo twitter"></li>
+              <li a href=""><img src="../images/facebook_icon.png" alt="Logo Facebook"></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <div class="vignette">
-            <a href="https://dragonball.fandom.com/fr/wiki/Son_Gok%C3%BB" onclick="open('https://dragonball.fandom.com/fr/wiki/Son_Gok%C3%BB', 'Popup', 'scrollbars=1, resizable=1,height=560,width=770'); return false;">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSret__9EH923Qzu-IH8U9lw0FYGrajfXsv-w&s" alt="Son Goku">
-                <p>Son Goku</p>
-            </a>   
-        
-        </div>
+        <section id="presentation">
+            <h2>Trop de Haribo? nope.</h2>
+            <p>Ici nous pensons qu'il n'y aura jamais trop de Haribos. Les Haribos c'est chaud. Les Haribos, c'est beau. Les Haribos ça sent le bonbon, il est <span>prouvé scientifiquement</span> que manger des Haribos tous les jours améliore la productivité et diminue le stress. Essayez !</p>
+        </section>
+        <section id="semaine">
+            <h3>Le Haribo de la semaine &#9825</h3>
+            <img src="../images/haribo00.png" alt="Fraizibus">
+        </section>
+        <section id="principale">
+            <div id="galerie">
+                <div id="haut">
+                    <img src="../images/haribo01.png" alt="Goldbears">
+                    <img src="../images/haribo02.png" alt="Happy Life">
+                    <img src="../images/haribo03.png" alt="Rainbow Pik">
+                    <img src="../images/haribo04.png" alt="Croco">
+                    <img src="../images/haribo05.png" alt="Flappie's">
+                    <img src="../images/haribo06.png" alt="Pocket">
+                    <img src="../images/haribo07.png" alt="Schtroumph pik">
+                    <img src="../images/haribo08.png" alt="seau haribo">
+                    <img src="../images/haribo09.png" alt="haribo ourson">
+                    <img src="../images/haribo10.png" alt="Schtroumph haribo">
+                    <img src="../images/haribo11.png" alt="Dragibus">
+                    <img src="../images/haribo12.png" alt="">
+                    <img src="../images/haribo13.png" alt="Haribo world mix">             
+                    <img src="../images/haribo13.png" alt="Haribo world mix">
+                    <img src="../images/haribo14.png" alt="Croco Pik">
+                    <img src="../images/haribo15.png" alt="Miami Pik">
+                    <img src="../images/haribo16.png" alt="Happy Cola">
+                    <img src="../images/haribo17.png" alt="Dragibus Party">
+                    <img src="../images/haribo18.png" alt="Carensac">
+                    <img src="../images/haribo19.png" alt="">
+                    <img src="../images/haribo20.png" alt="">
+                    <img src="../images/haribo21.png" alt="">
+                </div>
 
-        <div class="vignette">
-            <a href="https://dragonball.fandom.com/fr/wiki/Son_Gohan" onclick="open('https://dragonball.fandom.com/fr/wiki/Son_Gohan', 'Popup', 'scrollbars=1, resizable=1, height=560,width=770'); return false;">
-                <img src="images/son_gohan.PNG" alt="Son Gohan">
-                <p>Son Gohan</p>
-            </a>
-        </div>
-        <div class="vignette">
-            <a href="https://dragonball.fandom.com/fr/wiki/Mr._Satan" onclick="open('https://dragonball.fandom.com/fr/wiki/Mr._Satan', 'Popup', 'scrollbars=1, resizable=1, height=560,width=770'); return false">
-                <img src="images/mister_satan.PNG" alt="Mister Satan">
-                <p>Mister Satan</p>
-            </a>
-        </div>
-        <div class="vignette">
-            <a href="https://dragonball.fandom.com/fr/wiki/Kuririn" onclick="open('https://dragonball.fandom.com/fr/wiki/Kuririn', 'Popup', 'scrollbars=1, resizable=1, height=560,width=770'); return false">
-                <img src="images/krilin.PNG" alt="Krilin">
-                <p>Krilin</p>
-            </a>
-        </div>
-        <div class="vignette">
-            <a href="https://dragonball.fandom.com/fr/wiki/Kam%C3%A9_Sennin" onclick="open('https://dragonball.fandom.com/fr/wiki/Kam%C3%A9_Sennin', 'Popup', 'scrollbars=1, resizable=1, height=560,width=770'); return false">
-                <img src="images/kame sennin.PNG" alt="Kame Sennin">
-                <p>Kame Sennin</p>
-            </a>
-        </div>
-        <div class="vignette">
-            <a href="https://dragonball.fandom.com/fr/wiki/N%C2%B018" onclick="open('https://dragonball.fandom.com/fr/wiki/N%C2%B018', 'Popup', 'scrollbars=1, resizable=1, height=560,width=770'); return false">
-                <img src="images/c_18.PNG" alt="C-18">
-                <p>C-18</p>
-            </a>
-        </div>
-        <div class="vignette">
-            <a href="https://dragonball.fandom.com/fr/wiki/Bulma" onclick="open('https://dragonball.fandom.com/fr/wiki/Bulma', 'Popup', 'scrollbars=1, resizable=1, height=560,width=770'); return false">
-                <img src="images/bulma.PNG" alt="Bulma">
-                <p>Bulma</p>
-            </a>
-        </div>
-        <div class="vignette">
-            <a href="https://dragonball.fandom.com/fr/wiki/Chichi" onclick="open('https://dragonball.fandom.com/fr/wiki/Chichi', 'Popup', 'scrollbars=1, resizable=1, height=560,width=770'); return false">
-                <img src="images/chichi.PNG" alt="Chichi">
-                <p>Chichi</p>
-            </a>
-        </div>
-        <div class="vignette">
-            <a href="https://dragonball.fandom.com/fr/wiki/Trunks" onclick="open('https://dragonball.fandom.com/fr/wiki/Trunks', 'Popup', 'scrollbars=1, resizable=1, height=560,width=770'); return false">
-                <img src="images/trunks.PNG" alt="Trunks">
-                <p>Trunks</p>
-            </a>
-        </div>
-        <div class="vignette">
-            <a href="https://dragonball.fandom.com/fr/wiki/Vegeta" onclick="open('https://dragonball.fandom.com/fr/wiki/Vegeta', 'Popup', 'scrollbars=1, resizable=1, height=560,width=770'); return false">
-                <img src="images/vegeta.PNG" alt="Vegeta">
-                <p>Vegeta</p>
-            </a>
-        </div>
-        <div class="vignette">
-            <a href="https://dragonball.fandom.com/fr/wiki/Majin_Boo_" onclick="open('https://dragonball.fandom.com/fr/wiki/Majin_Boo_', 'Popup', 'scrollbars=1, resizable=1, height=560,width=770'); return false">
-                <img src="images/boo.PNG" alt="Boo">
-                <p>Boo</p>
-            </a>
-        </div>
-        <div class="vignette">
-            <a href="https://dragonball.fandom.com/fr/wiki/Freezer" onclick="open('https://dragonball.fandom.com/fr/wiki/Freezer', 'Popup', 'scrollbars=1, resizable=1, height=560,width=770'); return false">
-                <img src="images/freezer.PNG" alt="Freezer">
-                <p>Freezer</p>
-            </a>
-        </div>
+            </div>
+            <div id="contact">
+                <h4>soumettez vos photos de haribos</h4>
+                <p>Vous avez un Haribos inédit tellement bon que vous voulez le partager ? <a href="">partager la photo ici!</a></p>
+                <h4>inscrivez-vous à notre newsletter</h4>
+                <a href="">Souscrivez ici</a>
+                <h4>commandez en ligne !!</h4>
+                <a href="">Accéder à la boutique</a>
 
+            </div>
+        </section>
     </main>
     <footer>
-        <p>&copy ESRP - Beauvoir 2024</p>
+        <p>Copyright &copy; &brvbar; 2024 ♥ Haribo</p>
     </footer>
 </body>
 </html>
+
+ 
