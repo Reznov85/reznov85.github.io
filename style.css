@@ -31,6 +31,15 @@ main {
     row-gap: 1rem;
 }
 
+.vignette:nth-child(n+4){
+    order: 2;
+}
+
+main>:first-child{
+    order:1;
+}
+
+
 .vignette {
     width: 30%;
     padding: 0.5rem;
@@ -38,6 +47,7 @@ main {
     border-radius:5%;
     vertical-align: middle;
     text-align: center;
+
 }
 
 .vignette img {
